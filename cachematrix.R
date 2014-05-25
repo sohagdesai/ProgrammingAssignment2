@@ -3,8 +3,8 @@
 
 ## Write a short comment describing this function
 ## This function creates a list object from an input matrix. The list
-## object has methods to set and get internal variables and to get and 
-## and set the inverse (i.e. "solve" the matrix).
+## object has methods to set and get the input matrix and to get and 
+## set the variable that stores the cached inverse of the matrix.
 makeCacheMatrix <- function(x = matrix()) {
         inverse <- NULL
         set <- function(y) {
